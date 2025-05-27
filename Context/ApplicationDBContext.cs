@@ -16,7 +16,7 @@ public class ApplicationDBContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=134.209.227.169,1433;Database=E-ShopDB;User Id=SA;Password=qKTxTjgSzDhs0EykMhbqmwrktJUeeNX#;Encrypt=False;TrustServerCertificate=True;");
+        optionsBuilder.UseSqlServer("Server=localhost,1433;Database=E-ShopDB;User Id=SA;Password=;Encrypt=False;TrustServerCertificate=True;");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
